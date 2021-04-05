@@ -10,10 +10,9 @@ workspace:
     gpuCount: 0
     labels:
       com.coder.custom.workshop: "workshop-one"
-      com.coder.custom.world: "world"
+      com.coder.custom.node: "world"
   configure:
     start:
-      - name: "update modules"
-        directory: /home/coder/coder-react
+      - name: "Make devurl on 3000"
         run: |
-          yarn
+          coder urls create $CODER_ENVIRONMENT_NAME 3000 --access org --name $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1) && 
