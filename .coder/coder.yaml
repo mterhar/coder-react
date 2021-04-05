@@ -12,7 +12,8 @@ workspace:
       com.coder.custom.workshop: "workshop-one"
       com.coder.custom.world: "world"
   configure:
-    - name: "update modules"
-      directory: /home/coder/coder-react
-      run: |
-        yarn
+    start:
+      - name: "update modules"
+        directory: /home/coder/coder-react
+        run: |
+          yarn
