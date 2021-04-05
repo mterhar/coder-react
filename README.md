@@ -4,11 +4,11 @@ This repository is an example of a simple NodeJS web application. Coder provides
 
 Classic environment builder button
 
-[![Open in Coder Enterprise](https://cdn.coder.com/embed-button.svg)](https://coder.one.coderworkshop.com/environments/git?org=default&image=606b513d-e7d39f6c01a4fdcf90048d8a&tag=ubuntu&service=gitlab&repo=git@gitlab.com:brownfield-dev/coder-react.git)
+[![Open in Coder Enterprise](https://cdn.coder.com/embed-button.svg)](https://coder.one.coderworkshop.com/environments/git?org=default&image=606b513d-e7d39f6c01a4fdcf90048d8a&tag=ubuntu&service=github&repo=git@github.com:mterhar/coder-react.git)
 
 Fancy new Workspaces as Code button
 
-[![Open in Coder Enterprise](https://cdn.coder.com/embed-button.svg)](https://coder.one.coderworkshop.com/wac/build?project_oauth_service=gitlab&project_url=gitlab&repo=git@gitlab.com:brownfield-dev/coder-react.git&template_oauth_service=gitlab&template_ref=main&template_url=https://gitlab.com/brownfield-dev/coder-react)
+[![Open in Coder Enterprise](https://cdn.coder.com/embed-button.svg)](https://coder.one.coderworkshop.com/wac/build?project_oauth_service=github&project_url=git@github.com:mterhar/coder-react.git&template_oauth_service=github&template_ref=main&template_url=https://github.com/mterhar/coder-react)
 
 # Workshop instructions
 
