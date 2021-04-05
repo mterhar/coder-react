@@ -1,0 +1,18 @@
+version: 0.1
+workspace:
+  type: kubernetes
+  spec:
+    image: codercom/enterprise-node:latest
+    container-based-vm: true
+    cpu: 6
+    memory: 13
+    disk: 64
+    gpuCount: 0
+    labels:
+      com.coder.custom.workshop: "workshop-one"
+      com.coder.custom.world: "world"
+  configure:
+    - name: "update modules"
+      directory: /home/coder/coder-react
+      run: |
+        yarn

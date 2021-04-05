@@ -1,0 +1,25 @@
+{
+  "title": "Introduction",
+  "steps": [
+    {
+      "file": "README.md",
+      "line": 26,
+      "description": "You are here or so! Make sure that theme is dark before you get a headache :-)"
+    },
+    {
+      "file": "src/App.js",
+      "line": 11,
+      "description": "This is a good line to edit to see the changes. \n\nJSX format is just HTML that lives in the middle of a JavaScript return statement. "
+    },
+    {
+      "file": ".vscode/extensions.json",
+      "line": 5,
+      "description": "You'll notice this extension is one of the suggested extensions."
+    },
+    {
+      "file": "README.md",
+      "line": 36,
+      "description": "If you started the image with \"Use Container VM\" enabled, you can run these docker commands to build and run the same node app in an image inside the workspace. "
+    }
+  ]
+}
