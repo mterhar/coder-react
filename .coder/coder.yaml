@@ -14,5 +14,4 @@ workspace:
   configure:
     start:
       - name: "Make devurl on 3000"
-        run: |
-          coder urls create $CODER_ENVIRONMENT_NAME 3000 --access org --name $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1) && 
+        run: "coder urls create $CODER_ENVIRONMENT_NAME 3000 --access org --name $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1) || true" 
