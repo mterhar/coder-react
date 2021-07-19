@@ -4,6 +4,8 @@ This repository is an example of a simple NodeJS web application. Coder provides
 
 # Workshop instructions
 
+Test GPG signing of commits. No important stuff.
+
 ## Use the Coder workspace
 
 During the workshop, we're going to walk through the following:
