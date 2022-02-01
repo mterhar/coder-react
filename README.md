@@ -2,6 +2,8 @@
 
 This repository is an example of a simple NodeJS web application. Coder provides some sample images, such as [this NodeJS ubuntu image](https://github.com/cdr/enterprise-images/blob/master/images/node/Dockerfile.ubuntu). 
 
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://sandbox.coder.com/workspaces/git?org=61f2034e-21dddf3a29d42730f1d9e5bc&image=61f89704-89d9568751e67ecca309d2bc&tag=ubuntu&service=github&repo=git@github.com:mterhar/coder-react.git)
+
 # Workshop instructions
 
 ## Use the Coder workspace
